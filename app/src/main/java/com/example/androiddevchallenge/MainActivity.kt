@@ -192,6 +192,7 @@ fun getPetList() = ArrayList<Pet>().apply {
             id = 1,
             name = "American Bulldog",
             age = 1,
+            weight=5,
             location = "San Francisco",
             image = R.drawable.american_bulldog
         )
@@ -202,38 +203,41 @@ fun getPetList() = ArrayList<Pet>().apply {
             id = 2,
             name = "Borador",
             age = 2,
+            weight=4,
             location = "Maharashtra",
             image = R.drawable.borador
         )
     )
 
-    add(Pet(id = 3, name = "Bulldog", age = 3, location = "Ahmednagar", image = R.drawable.bulldog))
+    add(Pet(id = 3, name = "Bulldog", age = 3, weight=6, location = "Ahmednagar", image = R.drawable.bulldog))
 
-    add(Pet(id = 4, name = "Chinook", age = 4, location = "Sangali", image = R.drawable.chinook))
+    add(Pet(id = 4, name = "Chinook", age = 4, weight=7, location = "Sangali", image = R.drawable.chinook))
 
-    add(Pet(id = 5, name = "Eurasier", age = 5, location = "Satara", image = R.drawable.eurasier))
+    add(Pet(id = 5, name = "Eurasier", age = 5,weight=9, location = "Satara", image = R.drawable.eurasier))
 
-    add(Pet(id = 6, name = "Frenchton", age = 6, location = "Nashik", image = R.drawable.frenchton))
+    add(Pet(id = 6, name = "Frenchton", age = 6, weight=4, location = "Nashik", image = R.drawable.frenchton))
 
     add(
         Pet(
             id = 7,
             name = "German Shepherd",
             age = 7,
+            weight=11,
             location = "Jalgao",
             image = R.drawable.german_shepherd
         )
     )
 
-    add(Pet(id = 8, name = "Jack Chi", age = 8, location = "Pune", image = R.drawable.jack_chi))
+    add(Pet(id = 8, name = "Jack Chi", age = 8, weight=11, location = "Pune", image = R.drawable.jack_chi))
 
-    add(Pet(id = 9, name = "Whoodle", age = 9, location = "Mumbai", image = R.drawable.whoodle))
+    add(Pet(id = 9, name = "Whoodle", age = 9, weight=9, location = "Mumbai", image = R.drawable.whoodle))
 
     add(
         Pet(
             id = 10,
             name = "Yorkipoo",
-            age = 10,
+            age = 6,
+            weight=5,
             location = "Ratnagiri",
             image = R.drawable.yorkipoo
         )

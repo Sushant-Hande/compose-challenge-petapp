@@ -16,4 +16,7 @@
     <string name="adoption">Adoption</string>
     <string name="owner">Owner</string>
     <string name="reason">I am moving to the new country. I dont have an opportunity to take my pet with me. I am looking for someone who can take good care of my pet.</string>
+    <string name="age">Age</string>
+    <string name="weight">Weight</string>
+    <string name="location">Location</string>
 </resources>
